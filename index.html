@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%234361ee%22 /><path d=%22M35 30L20 50L35 70%22 stroke=%22white%22 stroke-width=%226%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 /><path d=%22M65 30L80 50L65 70%22 stroke=%22white%22 stroke-width=%226%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 /><path d=%22M55 20L45 80%22 stroke=%22white%22 stroke-width=%226%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 /></svg>">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Hi, I'm <span>Meruva Lokesh</span></h1>
+      <p>A passionate <span>AI Engineer</span> crafting amazing digital experiences.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hello! I'm a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development and have experience working with modern web technologies.
+          </p>
+          <p>
+            My approach combines clean code with creative design to build responsive websites that deliver exceptional user experiences. I'm constantly learning and exploring new technologies to stay at the forefront of web development.
+          </p>
+          <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+        <div class="about-image">
+          <img src="images/my photos (2).jpeg" alt="Profile Picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill" data-level="expert">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="expert">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="advanced">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="advanced">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="intermediate">
+          <i class="fab fa-node-js"></i>
+          <h3>Node.js</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="advanced">
+          <i class="fab fa-git-alt"></i>
+          <h3>Git</h3>
+          <div class="skill-level"></div>
+        </div>
+        <!-- <div class="skill" data-level="intermediate">
+          <i class="fab fa-sass"></i>
+          <h3>Sass</h3>
+          <div class="skill-level"></div>
+        </div> -->
+        <div class="skill" data-level="intermediate">
+          <i class="fab fa-vuejs"></i>
+          <h3>Machine Learning</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="beginner">
+          <i class="fab fa-aws"></i>
+          <h3>Deep Learning</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="advanced">
+          <i class="fab fa-bootstrap"></i>
+          <h3>Bootstrap</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="intermediate">
+          <i class="fab fa-figma"></i>
+          <h3>Figma</h3>
+          <div class="skill-level"></div>
+        </div>
+        <div class="skill" data-level="beginner">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <div class="skill-level"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <div class="project-img">
+            <img src="images/vehicle image.png" alt="Project 1">
+          </div>
+          <div class="project-info">
+            <h3>Vehicle-Image-Classification</h3>
+            <p>A deep learning-based web application that classifies different types of vehicles using the ResNet50 architecture. The system provides real-time classification with confidence scores through an intuitive web interface</p>
+            <div class="project-links">
+              <a href="https://github.com/Lokesh-meruva/Vehicle-Image-Classification"><i class="fab fa-github"></i> GitHub</a>
+              <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="project">
+          <div class="project-img">
+            <img src="images/ai resume analyser.png" alt="Project 2">
+          </div>
+          <div class="project-info">
+            <h3>AI Resume Analyzer</h3>
+            <p>An AI-powered tool to analyze resumes by extracting text from PDF/DOCX files, preprocessing the content, and comparing it to a job description using BERT embeddings. The project calculates a match score (0-100%) that indicates how well a resume aligns with the job requirements.</p>
+            <div class="project-links">
+              <a href="https://github.com/Lokesh-meruva/AI_Resume_Analyzer"><i class="fab fa-github"></i> GitHub</a>
+              <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+        
+        <div class="project">
+          <div class="project-img">
+            <img src="images/hand writter.jpg" alt="Project 3">
+          </div>
+          <div class="project-info">
+            <h3>Handwritten-Digit-Recognition</h3>
+            <p>This is a deep learning project using Flask and TensorFlow to recognize handwritten digits from images.Upload an image of a handwritten digit (0-9)
+                AI predicts the digit with high accuracy
+                Web-based frontend using Flask and HTML/CSS</p>
+            <div class="project-links">
+              <a href="https://github.com/Lokesh-meruva/Handwritten-Digit-Recognition"><i class="fab fa-github"></i> GitHub</a>
+              <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>Lokeshmeruva10@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>8639569647</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Vijayawada</h3>
+              <p> India</p>
+            </div>
+          </div>
+        </div>
+        
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/Lokesh-meruva"><i class="fab fa-github"></i></a>
+        <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
+        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+</html>
